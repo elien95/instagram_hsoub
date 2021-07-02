@@ -28,7 +28,7 @@ class Fillters extends Component
         $this->post_caption = $post_caption;
         $this->image_path = $image_path;
 
-        $this->correctImageOrientation($this->image_path,IMG_FILTER_NEGATE, $this->filter1, null, null, null, null, 0);
+        $this->correctImageOrientation($this->image_path,IMG_FILTER_NEGATE, $this->filter1, null, null, null, null,0);
         $this->correctImageOrientation($this->image_path,IMG_FILTER_GRAYSCALE, $this->filter2,null,null,null,null,0);
         $this->correctImageOrientation($this->image_path,IMG_FILTER_EMBOSS, $this->filter3,null,null,null,null,0);
         $this->correctImageOrientation($this->image_path,IMG_FILTER_GAUSSIAN_BLUR, $this->filter4,null,null,null,null,0);
