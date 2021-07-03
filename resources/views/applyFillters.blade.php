@@ -7,5 +7,5 @@
       </h1>
 </div>
       </x-slot>
-  @livewire('fillters', ['post_caption' => $post_caption , 'image_path'=>$image_path])
+  @livewire('filters', ['post_caption' => $post_caption , 'image_path'=>$image_path])
 </x-app-layout>
